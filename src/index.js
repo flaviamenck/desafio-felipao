@@ -1,5 +1,5 @@
 let nomeHeroi = "Sage";
-let xpHeroi = 10005;
+let xpHeroi = 6000;
 let classificao = "";
 
 switch (true) {
