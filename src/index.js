@@ -1,34 +1,34 @@
 let nomeHeroi = "Sage";
 let xpHeroi = 6000;
-let classificao = "";
+let classificacao = "";
 
 switch (true) {
     case (xpHeroi < 1000):
-        classificao = "Ferro";
+        classificacao = "Ferro";
         break;
     case (xpHeroi >= 1001 && xpHeroi < 2000):
-        classificao = "Bronze";
+        classificacao = "Bronze";
         break;
     case (xpHeroi >= 2001 && xpHeroi < 5000):
-        classificao = "Prata";
+        classificacao = "Prata";
         break;
     case (xpHeroi >= 5001 && xpHeroi < 7000):
-        classificao = "Ouro";
+        classificacao = "Ouro";
         break;
     case (xpHeroi >= 7001 && xpHeroi < 8000):
-        classificao = "Platina";
+        classificacao = "Platina";
         break;
     case (xpHeroi >= 8001 && xpHeroi < 9000):
-        classificao = "Ascendente";
+        classificacao = "Ascendente";
         break;
     case (xpHeroi >= 9001 && xpHeroi < 10000):
-        classificao = "Imortal";
+        classificacao = "Imortal";
         break;
     case (xpHeroi >= 10001):
-        classificao = "Radiante";
+        classificacao = "Radiante";
         break;
     default:
         console.log("Nenhum XP registrado.");
 }
 
-console.log("O herói de nome " + nomeHeroi + " está no nível de " + classificao + "!");
+console.log("O herói de nome " + nomeHeroi + " está no nível de " + classificacao + "!");
